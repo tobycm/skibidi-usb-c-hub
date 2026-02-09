@@ -1194,7 +1194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0868cd44-d52d-4566-a2af-b3a50a3e752c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 152.4 57.15 0)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1260,7 +1260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "213a6bc5-be90-4594-b15a-7a17d427a117")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR03"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -1311,7 +1311,7 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR017")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1405,7 +1405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68b8b533-d544-4ed4-a55a-3a85594c2c37")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR05"
 			(at 135.89 87.63 0)
 			(effects
 				(font
@@ -1455,7 +1455,7 @@
 		(instances
 			(project ""
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR018")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1471,7 +1471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "697218e9-7427-48b4-a267-e0774db96410")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -1522,7 +1522,7 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d506268-aa44-4dbc-aa14-e3dcfff3d3da")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 143.51 87.63 0)
 			(effects
 				(font
@@ -1666,7 +1666,7 @@
 		(instances
 			(project ""
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1806,7 +1806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8731845-0d42-4f5c-8f51-87a5db247665")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR07"
 			(at 139.7 123.19 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 		(instances
 			(project ""
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR01")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1873,7 +1873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db129946-dde1-4209-9e4d-cd7ac706a4c0")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 139.7 57.15 0)
 			(effects
 				(font
@@ -1923,7 +1923,7 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

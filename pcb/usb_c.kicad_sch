@@ -868,7 +868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a281d35-af6d-4d71-b599-d8ca8ae994e5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR011"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -918,19 +918,19 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
-					(reference "#PWR012")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
-					(reference "#PWR09")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -946,7 +946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd12a1a-daa4-418e-84fa-fd9be0a9ccba")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -997,19 +997,19 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
-					(reference "#PWR011")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1150,7 +1150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "621a8fa3-798c-4f6f-abbf-3117415bec57")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -1200,19 +1200,19 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
-					(reference "#PWR010")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1228,7 +1228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85eef678-bb0d-48ae-901b-f425d886f435")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 107.95 97.79 90)
 			(effects
 				(font
@@ -1289,19 +1289,19 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1317,7 +1317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a5a64d-c3d8-474c-90d5-441ebf579bf5")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 115.57 95.25 90)
 			(effects
 				(font
@@ -1378,19 +1378,19 @@
 		(instances
 			(project "skibidi-usb-c-hub"
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
