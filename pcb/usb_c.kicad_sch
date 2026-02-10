@@ -5,6 +5,145 @@
 	(uuid "260b3f00-899f-4fd2-8073-63bea1fde60e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -859,6 +998,96 @@
 		(uuid "c770bb26-7040-49d4-b27b-84d3181c76c2")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 165.1 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a4b84d6-fc7f-49ca-ae3f-a412a8d27385")
+		(property "Reference" "C5"
+			(at 168.91 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 168.91 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.0652 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fe09717-84b2-4aca-85e8-e5288c8f7420")
+		)
+		(pin "1"
+			(uuid "5245fbd2-371c-48a6-9b4a-5755a32be8e9")
+		)
+		(instances
+			(project "skibidi-usb-c-hub"
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 139.7 87.63 0)
 		(unit 1)
@@ -1010,6 +1239,85 @@
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574708d8-aba7-4324-927d-b850aac40c54")
+		(property "Reference" "#PWR024"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f9103d5-efa6-440d-b194-840c3458886b")
+		)
+		(instances
+			(project "skibidi-usb-c-hub"
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1391,6 +1699,84 @@
 				)
 				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 165.1 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeae68ce-8e99-4e17-bdb0-3bfdfb0ec840")
+		(property "Reference" "#PWR028"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8331890d-bba3-407f-a0f4-ed30c80d6fe8")
+		)
+		(instances
+			(project "skibidi-usb-c-hub"
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/6f59b006-c39b-4f95-9bd5-f3ad5c9f2e1d"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a20e208f-9c1f-498b-b7e6-c187e8f066dd"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/a3f216c1-5ccc-45d3-8b9e-12c0f2e53f02"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/ba8238db-cbbe-49a0-8684-36588779fc6b/fb8800a7-8efe-42d7-a8d1-e327d54fdf66"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
