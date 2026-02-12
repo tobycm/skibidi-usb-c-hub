@@ -8,6 +8,10 @@ ch334 my love. i <3 wch
 
 ## 3D render
 
+![3d with case](assets/3d_with_case.png)
+
+![3d with case no top](assets/3d_with_case_no_top.png)
+
 ![overall view](assets/3d_overall.png)
 
 ![top view](assets/3d_top.png)
