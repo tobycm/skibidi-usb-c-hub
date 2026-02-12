@@ -6,6 +6,14 @@ i had an old computer that only has usb a ports, so i made this hub to extend th
 
 ch334 my love. i <3 wch
 
+## Links
+
+Onshape: https://cad.onshape.com/documents/2453a6f2426758a8164db13e/w/aaae3aa11a76b09d86b06c41/e/a0f10c7f22eb2d735bb89467?renderMode=0&uiState=698d8565a52609b0fe224337
+
+Kicanvas: https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Ftobycm%2Fskibidi-usb-c-hub%2Ftree%2Fmain%2Fpcb
+
+Repo: https://github.com/tobycm/skibidi-usb-c-hub
+
 ## 3D render
 
 ![3d with case](assets/3d_with_case.png)
@@ -37,3 +45,7 @@ ch334 my love. i <3 wch
 | PCBA | - | PCBA | 25.44 | 25.44 | [Link](https://jlcpcb.com/) |
 | JLCPCB Shipping | - | JLCPCB Shipping | 8.53 | 8.53 | [Link](https://jlcpcb.com/) |
 | **Total** | | | | **62.84** | |
+
+## End notes
+
+This project was funded by [Blueprint](https://blueprint.hackclub.com/), a grant program by Hack Club that supports open source hardware projects for teenagers.
